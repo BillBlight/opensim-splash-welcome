@@ -1,36 +1,47 @@
-Dies ist eine von mir überarbeitete splash/welcome Seite von OsGrid.
-Copyright (c) 2011, http://osgrid.org
-Das header.png Logo ist das OpenSimulator Logo von Adam Frisby komplett neu erstellt und gemeinfrei.
-Panorama Bild 12 July 2006 Source http://www.panoramio.com/photo/4867071 von Stefan Aßmann, Creative Commons 3.0
+Dies ist eine von mir Ã¼berarbeitete splash/welcome Seite von OsGrid.
 
-Ich habe die externe Setup Datei eingefügt, weil sie bei mir nicht gefunden wurde.
-Diese splash/welcome Seite ist alleinstehend und für ein Grid ohne Anmeldemöglichkeit völlig ausreichend.
-Es kann als Ersatz für die WIFI/welcome oder andere splash/welcome Seiten benutzt werden, ohne dessen Funktion zu stören.
-Sie kann umbenannt und in CMS wie Wordpress, Joomla, etc. eingefügt werden, nennt sie in diesem Fall einfach in splash.php um.
+Copyright (c) 2011, http://osgrid.org
+
+Das header.png Logo ist das OpenSimulator Logo von Adam Frisby komplett neu erstellt und gemeinfrei.
+
+Panorama Bild 12 July 2006 Source http://www.panoramio.com/photo/4867071 von Stefan AÃŸmann, Creative Commons 3.0
+
+
+Ich habe die externe Setup Datei eingefÃ¼gt, weil sie bei mir nicht gefunden wurde.
+
+Diese splash/welcome Seite ist alleinstehend und fÃ¼r ein Grid ohne AnmeldemÃ¶glichkeit vÃ¶llig ausreichend.
+
+Es kann als Ersatz fÃ¼r die WIFI/welcome oder andere splash/welcome Seiten benutzt werden, ohne dessen Funktion zu stÃ¶ren.
+
+Sie kann umbenannt und in CMS wie Wordpress, Joomla, etc. eingefÃ¼gt werden, nennt sie in diesem Fall einfach in splash.php um.
 
 Die Installation ist recht einfach:
 
-Entpacken und in das Webverzeichnis kopieren, euer heißt vielleicht "www, html, www/html, htdoc, xampp/htdoc, etc.".
+Entpacken und in das Webverzeichnis kopieren, euer heiÃŸt vielleicht "www, html, www/html, htdoc, xampp/htdoc, etc.".
 
-Die Datei index.php mit einem Editor wie Notepad++ öffnen.
+Die Datei index.php mit einem Editor wie Notepad++ Ã¶ffnen.
 
-Abschnitt "Anfang der Einstellungen" suchen und eure Datenbank Einstellungen einfügen.
+Abschnitt "Anfang der Einstellungen" suchen und eure Datenbank Einstellungen einfÃ¼gen.
 
 So es ist betriebsbereit jetzt bitte testen ob es funktioniert.
 
-In den Zeilen 74-82 sind Regionen/Links vorgegeben die ihr nur gegen eure austauschen müsst.
+In den Zeilen 74-82 sind Regionen/Links vorgegeben die ihr nur gegen eure austauschen mÃ¼sst.
 
-Ihr könnt die Regionen/Links erweitern oder verringern je nachdem wie viele Regionen/Links angezeigt werden sollen.
+Ihr kÃ¶nnt die Regionen/Links erweitern oder verringern je nachdem wie viele Regionen/Links angezeigt werden sollen.
 
 So noch die Bilder/Logos gegen eure austauschen und ihr seid fertig.
 
-Wer die Optik weitergehend verändern möchte kann dies in der Datei splash.css tun.
-Editoren hierfür gibt es viele. 
+Wer die Optik weitergehend verÃ¤ndern mÃ¶chte kann dies in der Datei splash.css tun.
+
+Editoren hierfÃ¼r gibt es viele. 
+
 Hier 10 Beispiele: http://t3n.de/news/10-kostenfreie-css-editoren-361956/
 
-Wer eine Bildergalerie haben möchte der liest sich bitte folgendes durch:
+Wer eine Bildergalerie haben mÃ¶chte der liest sich bitte folgendes durch:
+
 Kurs Bildergalerie in PHP: http://www.php-kurs.com/beispiel-bildergalerie-erstellen.htm
 
 
-Viel Spaß wünsche ich euch. 
+Viel SpaÃŸ wÃ¼nsche ich euch. 
+
 Manfred Aabye 26.09.2016
