@@ -6,6 +6,8 @@ Das header.png Logo ist das OpenSimulator Logo von Adam Frisby komplett neu erst
 
 Panorama Bild 12 July 2006 Source http://www.panoramio.com/photo/4867071 von Stefan Aßmann, Creative Commons 3.0
 
+.
+
 
 Ich habe die externe Setup Datei eingefügt, weil sie bei mir nicht gefunden wurde.
 
@@ -14,6 +16,9 @@ Diese splash/welcome Seite ist alleinstehend und für ein Grid ohne Anmeldemögl
 Es kann als Ersatz für die WIFI/welcome oder andere splash/welcome Seiten benutzt werden, ohne dessen Funktion zu stören.
 
 Sie kann umbenannt und in CMS wie Wordpress, Joomla, etc. eingefügt werden, nennt sie in diesem Fall einfach in splash.php um.
+
+.
+
 
 Die Installation ist recht einfach:
 
@@ -31,15 +36,23 @@ Ihr könnt die Regionen/Links erweitern oder verringern je nachdem wie viele Reg
 
 So noch die Bilder/Logos gegen eure austauschen und ihr seid fertig.
 
+.
+
+
 Wer die Optik weitergehend verändern möchte kann dies in der Datei splash.css tun.
 
 Editoren hierfür gibt es viele. 
 
 Hier 10 Beispiele: http://t3n.de/news/10-kostenfreie-css-editoren-361956/
 
+.
+
+
 Wer eine Bildergalerie haben möchte der liest sich bitte folgendes durch:
 
 Kurs Bildergalerie in PHP: http://www.php-kurs.com/beispiel-bildergalerie-erstellen.htm
+
+.
 
 
 Viel Spaß wünsche ich euch. 
