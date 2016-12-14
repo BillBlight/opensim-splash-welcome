@@ -57,4 +57,4 @@ Kurs Bildergalerie in PHP: http://www.php-kurs.com/beispiel-bildergalerie-erstel
 
 Viel Spaß wünsche ich euch. 
 
-Manfred Aabye 26.09.2016
+Manfred Aabye 14.12.2016 PHP7 OK
