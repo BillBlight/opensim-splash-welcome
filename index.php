@@ -1,11 +1,12 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html lang="en">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta http-equiv="cache-control" content="no-cache">
 <meta http-equiv="Pragma" content="no-cache">
 <link id="main" rel="stylesheet" href="splash.css" type="text/css" media="screen"/>
-<title>openCAD</title>
+
+<title>myGRID</title>
 
 </head>
 
@@ -27,34 +28,37 @@
 
 <div id='stats1'>
 <fieldset class='grey'> 
+									 
+<h1>myGRID</h1>
 
 <?php
 // ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++   Anfang der Einstellungen
-//Datenbank Einstellungen - IP, Benutzername, Passwort
-$con = mysql_connect('localhost', 'opensim', 'opensim');
-//Datenbankname
-$database = "opensim";
+//Datenbank Einstellungen - IP, Benutzername, Passwort, Datenbankname
+$con = mysqli_connect("localhost", "myName", "Pass123456", "osDATABASE");
 // ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++   Ende der Einstellungen
 
-mysql_select_db($database, $con);
 if (!$con)
   {
-  die('Keine Verbindung: ' . mysql_error());
+  die('Keine Datenbankverbindung! ' . mysqli_connect_error());
   }
 
+  $totalUsers = 0;
+  
+  
+  
 // Query the database and get the count
 
-$result1 = mysql_query("SELECT COUNT(*) FROM Presence");
-list($totalUsers) = mysql_fetch_row($result1);
+$result1 = mysqli_query($con,"SELECT COUNT(*) FROM Presence");
+list($totalUsers) = mysqli_fetch_row($result1);
 
-$result2 = mysql_query("SELECT COUNT(*) FROM regions");
-list($totalRegions) = mysql_fetch_row($result2);
+$result2 = mysqli_query($con,"SELECT COUNT(*) FROM regions");
+list($totalRegions) = mysqli_fetch_row($result2);
 
-$result3 = mysql_query("SELECT COUNT(*) FROM UserAccounts");
-list($totalAccounts) = mysql_fetch_row($result3);
+$result3 = mysqli_query($con,"SELECT COUNT(*) FROM UserAccounts");
+list($totalAccounts) = mysqli_fetch_row($result3);
 
-$result4 = mysql_query("SELECT COUNT(*) FROM GridUser WHERE Login > (UNIX_TIMESTAMP() - (30*86400))");
-list($activeUsers) = mysql_fetch_row($result4);
+$result4 = mysqli_query($con,"SELECT COUNT(*) FROM GridUser WHERE Login > (UNIX_TIMESTAMP() - (30*86400))");
+list($activeUsers) = mysqli_fetch_row($result4);
 
 // Display the results
 
