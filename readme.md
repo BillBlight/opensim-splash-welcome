@@ -1,4 +1,4 @@
-Dies ist eine von mir überarbeitete splash/welcome Seite von OsGrid.
+Dies ist eine von mir überarbeitete splash/welcome Seite von OsGrid ist jetzt PHP7 Kompatibel.
 
 Copyright (c) 2011, http://osgrid.org
 
