@@ -13,11 +13,11 @@
 <body>
 
 <div id='background1'>
-<img border="0" src="background_01.png" width="100%" height="100%">
+<img border="0" src="background_01.png" width="100%" height="99%">
 </div>
 
 <div id='main'><br>
-<table border="0" width="100%" height="99%' cellspacing="0" cellpadding="0">
+<table border="0" width="100%" height="100%' cellspacing="0" cellpadding="0">
 	<tr>
 		<td height="136" background="header_background.png">
 		<img border="0" src="header.png" width="400" height="137">
