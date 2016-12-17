@@ -17,7 +17,7 @@
 </div>
 
 <div id='main'><br>
-<table border="0" width="100%" height="100%' cellspacing="0" cellpadding="0">
+<table border="0" width="100%" height="99%' cellspacing="0" cellpadding="0">
 	<tr>
 		<td height="136" background="header_background.png">
 		<img border="0" src="header.png" width="400" height="137">
@@ -33,7 +33,7 @@
 
 <?php
 // ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++   Anfang der Einstellungen
-//Datenbank Einstellungen - IP, Benutzername, Passwort, Datenbankname
+//Datenbank Einstellungen - IP oder localhost, Benutzername, Passwort, Datenbankname
 $con = mysqli_connect("localhost", "myName", "Pass123456", "osDATABASE");
 // ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++   Ende der Einstellungen
 
@@ -77,12 +77,12 @@ echo "<font color=#00AA00>Grid is ONLINE</font></b><br></div>";
 <div id='regions1'><fieldset class='white2'> 
 <a href="secondlife://welcome" target="_self" style="text-decoration: none;">welcome</a><br><hr>
 <a href="secondlife://sandbox" target="_self" style="text-decoration: none;">sandbox</a><br><hr>
-<a href="secondlife://primetime" target="_self" style="text-decoration: none;">primetime</a><br><hr>
-<a href="secondlife://info" target="_self" style="text-decoration: none;">info</a><br><hr>
-<a href="secondlife://news" target="_self" style="text-decoration: none;">news</a><br><hr>
-<a href="secondlife://party" target="_self" style="text-decoration: none;">party</a><br><hr>
-<a href="secondlife://medusa" target="_self" style="text-decoration: none;">medusa</a><br><hr>
-<a href="secondlife://story" target="_self" style="text-decoration: none;">story</a><br><hr>
+<a href="secondlife://region1" target="_self" style="text-decoration: none;">region1</a><br><hr>
+<a href="secondlife://region2" target="_self" style="text-decoration: none;">region2</a><br><hr>
+<a href="secondlife://region3" target="_self" style="text-decoration: none;">region3</a><br><hr>
+<a href="secondlife://region4" target="_self" style="text-decoration: none;">region4</a><br><hr>
+<a href="secondlife://region5" target="_self" style="text-decoration: none;">region5</a><br><hr>
+<a href="secondlife://region6" target="_self" style="text-decoration: none;">region6</a><br><hr>
 <a href="secondlife://club" target="_self" style="text-decoration: none;">club</a><br>
 </fieldset>
 </div>
